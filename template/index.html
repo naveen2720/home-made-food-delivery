@@ -1,0 +1,196 @@
+    {% extends 'nav.html'%}
+    {%block content%}
+        <!-- Food Search Section Start -->
+    <section class="food-search text-center" >
+        <div class="container">
+            <form action="foodsearch.html">
+                <input type="search" placeholder="Search for food..." required>
+                <input type="submit" value="Search" class="btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- Food Search Section End -->
+
+    <!-- Category Section Start -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+            <div class="heading-border"></div>
+
+            <div class="grid-3">
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="{% static 'C:\Users\rajan\OneDrive\Desktop\home made\hoome\static\images\pizza.jpeg'}" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Dosa</h3>
+                    </div>
+                </a>
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="{% static 'hoome\static\images\sandwich.jpg' %}" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Idly</h3>
+                    </div>
+                </a>
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="hoome\static\images\burger.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Poori</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Foods Section Start -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+            <div class="heading-border"></div>
+            <div class="grid-2">
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\p1.jpeg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Dosa</h4>
+                            <p class="food-price">30</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\s1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Idly</h4>
+                            <p class="food-price">10</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\b1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Poori</h4>
+                            <p class="food-price">10</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\p1.jpeg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Dosa</h4>
+                            <p class="food-price">30</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\s1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Idly</h4>
+                            <p class="food-price">10</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="hoome\static\images\b1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Poori</h4>
+                            <p class="food-price">10</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">
+            <a href="foods.html" class="btn-primary">See All Foods</a>
+        </p>
+    </section>
+    <!-- Foods Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="grid-3">
+                <div class="text-center">
+                    <h3>About Us</h3><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia, temporibus expedita dicta eligendi harum architecto fugiat sint, laudantium omnis animi. Voluptas praesentium maiores minima pariatur necessitatibus consequuntur, similique assumenda.</p>
+                </div>
+                <div class="texr-center">
+                    <h3>Site Map</h3><br>
+                    <div class="site-links">
+                        <a href="categories.html">Categories</a>
+                        <a href="foods.html">Foods</a>
+                        <a href="order.html">Order</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Social Links</h3><br>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/twitter--v1.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Copyright Section start -->
+    <section class="copyright">
+        <div class="container text-center">
+            <p>All rights reserved. Design By <a href="#">Code Arcade</a></p>
+        </div>
+        <a id="back-to-top" class="btn-primary">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+    </section>
+    <!-- Copyright Section End -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- Jquery UI -->
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
+{%endblock%}
